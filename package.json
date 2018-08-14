@@ -1,5 +1,5 @@
 {
-  "name": "react-native-android-voice",
+  "name": "react-native-android-voice-farsi",
   "version": "0.6.0",
   "description": "A React Native Voice Recognition Module",
   "main": "index.js",
@@ -17,9 +17,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/JoaoCnh/react-native-android-voice.git"
+    "url": "git://github.com/iamsoorena/react-native-android-voice-farsi.git"
   },
-  "author": "WMJMC",
+  "author": "WMJMC && iamsoorena",
   "license": "MIT",
   "peerDependencies": {
     "react-native": ">=0.13"
