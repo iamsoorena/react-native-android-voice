@@ -32,7 +32,7 @@ npm install --save react-native-android-voice
 ```gradle
 ...
 include ':VoiceModule', ':app'
-project(':VoiceModule').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-android-voice')
+project(':VoiceModule').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-android-voice-farsi')
 ```
 
 * In `android/app/build.gradle`
