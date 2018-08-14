@@ -57,8 +57,8 @@ public class VoiceModule extends ReactContextBaseJavaModule implements ActivityE
         final Intent intent = new Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH);
         intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL,
                 RecognizerIntent.LANGUAGE_MODEL_FREE_FORM);
-        intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE, getLocale(locale));
-        intent.putExtra(RecognizerIntent.EXTRA_PROMPT, getPrompt(prompt));
+        intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE, "fa_IR");
+		intent.putExtra(RecognizerIntent.EXTRA_PROMPT,"لطفا صحبت کنید");
         if (intent.resolveActivity(this.reactContext.getPackageManager()) != null) {
             try{
                 this.reactContext.startActivityForResult(intent, REQUEST_SPEECH_ACTIVITY, null);
